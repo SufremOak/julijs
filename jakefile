@@ -1,0 +1,24 @@
+let { task, desc, series, file, directory, namespace, rule } = require('jake');
+let exec = require('child_process').execSync;
+
+desc('This is the default build task.');
+task('default', function () {
+    //
+});
+
+function clean() {
+    //
+}
+
+async function lint() {
+    //
+}
+
+async function _build() {
+    //
+}
+
+exports.clean = clean;
+exports.lint = lint;
+exports.build = series(clean, lint, _build);
+

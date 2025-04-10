@@ -1,0 +1,18 @@
+#!/usr/local/env node
+
+var sh = require("shelljs");
+
+const repos = [
+    "https://github.com/sufremoak/julk.git"
+]
+
+sh.exec(`
+    if command -v "git" 2>&1; then
+        echo "git not installed"
+    else
+        continue
+    fi
+
+    git clone ${repos} ./bin/
+
+    `);
