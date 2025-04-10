@@ -1,6 +1,7 @@
 # JuliJS
 The first [Julk](https://github.com/sufremoak/julk) Framework
 
+[![JSR](https://jsr.io/badges/@sufremoak/julijs)](https://jsr.io/@sufremoak/julijs)
 ## Features
 
 ### Additional Julk syntax
